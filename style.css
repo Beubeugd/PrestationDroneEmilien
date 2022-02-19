@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+/*  ----Debut Nav Bar---- */
+
+
+* {
+
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+a {
+
+	text-decoration: none;
+	color: black;
+	transition: all 1s ease;
+		padding: 10px 10px 10px 10px;
+
+
+}
+
+a:hover {
+		background-color: #c3e4eb;
+	border-radius: 7px;
+	transition: all 1s ease;
+
+
+}
+
+li {
+
+	list-style-type: none;
+	transition: all 1s ease;
+	border: none;
+}
+
+
+
+nav {
+
+text-align: center;
+background-color: #add6de;
+background-image: url(dr.jpg);
+background-size: 210vh;
+background-repeat: no-repeat;
+text-transform: uppercase;
+font-family: 'Heebo', sans-serif;
+letter-spacing: 2px;
+margin-top: -250px;
+transition: all 1s ease;
+
+
+
+	
+}
+
+nav.activ {
+
+margin-top: 0px;
+transition: all 1s ease;
+
+
+}
+
+.plomo {
+
+
+	cursor: pointer;
+}
+
+
+/*  ----Fin Nav Bar---- */
+
+
+.para1 {
+font-family: 'Rajdhani', sans-serif;
+text-align: center;
+font-size: 70px;
+animation: slidedown 1.5s;
+}
+
+
+.para2 {
+font-family: 'Manrope', sans-serif;
+text-align: center;
+font-size: 23px;
+animation: slidedown 2.5s;
+margin-left: 44rem;
+margin-right: 4rem;
+margin-top: 4rem;
+background-color: #edf4f5;
+border-radius: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: -25px;
+}
+
+
+.img1 {
+
+
+	margin-top: -26rem;
+	margin-left: 2rem;
+	animation: slidedown 2.5s;
+
+
+
+}
+
+
+@media screen and (max-width: 1425px) {
+
+.img1{
+
+	margin-top: 3rem;
+
+}
+
+.img11 {
+
+		text-align: center;
+}
+
+.para2 {
+
+	
+	margin-left: 4rem;
+}
+
+
+}
+
+
+@media screen and (max-width: 780px) { 
+
+.para1 {
+
+	font-size: 40px;
+}
+
+
+.para2 {
+
+
+	font-size: 18px;
+}
+
+
+.img1 {
+
+	width: 500px;
+
+}
+
+nav {
+
+	margin-left: -1rem;
+}
+
+	}
+
+@media screen and (max-width: 500px) { 
+
+.para1 {
+
+	font-size: 30px;
+}
+
+
+.para2 {
+
+
+	font-size: 14px;
+}
+
+
+.img1 {
+
+	width: 0px;
+
+}
+
+#a {
+
+	font-family: 10px;
+}
+
+nav {
+
+	margin-left: -1rem;
+}
+
+}
+
+
+
+@keyframes slidedown {
+
+   from {
+transform: translateY(-50px);
+opacity: 0;
+
+   }
+ to {
+
+ 	transform: translateY(0);
+opacity: 1;
+
+ }
+
+
+}
+
